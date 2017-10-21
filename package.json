@@ -4,7 +4,8 @@
   "description": "simple react starter with webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "npm run build && node server/server.js",
+    "dev": "webpack-dev-server --open",
     "build": "cross-env NODE_ENV=production webpack"
   },
   "keywords": [
@@ -14,6 +15,8 @@
   "author": "Douglas Harrington Muhone <doug@theeomm.io> (https://theeomm.io)",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
     "normalize.css": "^7.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
