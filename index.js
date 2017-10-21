@@ -1,3 +1,12 @@
+/*
+ * Author: Douglas Harrington Muhone
+ *
+ * Email: doug@theeomm.io
+ *
+ * Website: http://www.theeomm.io
+ *
+*/
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 
