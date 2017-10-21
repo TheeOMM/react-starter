@@ -37,7 +37,8 @@ if (process.env.NODE_ENV === 'production') {
             }
         }),
         new webpack.optimize.UglifyJsPlugin()
-    )
+    ),
+    config['devtool'] = 'source-map'
 } else {
     ;(config['devtool'] = 'cheap-eval-source-map'),
         (config['devServer'] = {
