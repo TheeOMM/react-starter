@@ -1,0 +1,19 @@
+.NF-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50rem;
+}
+
+.NF-title {
+    font-weight: 400;
+}
+
+.NF-link {
+    text-decoration: none;
+
+}
